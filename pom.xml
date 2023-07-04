@@ -12,7 +12,7 @@
 	<artifactId>Msvc-sellos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Msvc-sellos</name>
-	<description>Microservicio de inserción, modificacion y eliminacion</description>
+	<description>Microservicio de inserción, modificacion y eliminacion de sellos</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -53,10 +53,6 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>com.github.ulisesbocchio</groupId>
 			<artifactId>jasypt-spring-boot-starter</artifactId>
 			<version>3.0.3</version>
@@ -65,7 +61,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>msvcsellos-r2-bdv</finalName>
+		<finalName>msvcsellos</finalName>
 		<plugins>
 
 			<plugin>
